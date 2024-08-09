@@ -25,14 +25,9 @@ def city_weather():
                         temp = weather_data.json()["main"]["temp"]
                         print(f"The weather is {weather} and the temperature is {temp}°c.")
 
-
 city_weather()
 
 
-#take first 3 characters, cycle through a list, iterate over 20 most popular cities
-# use len to get first 3 characters of popular cities
-#if they match then populate end point with full city name 
-#can then populate the cities list with more if wanted
-#else if not of them match then error 
+
 
 
